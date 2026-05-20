@@ -7,8 +7,7 @@ export default function Menu() {
         <h2 className="text-4xl font-bold mb-12 text-center">
           Our Best Sellers
         </h2>
-
-        {/*  Responsive Grid */}
+ 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           <SnackCard
             name="Basreng Pedas Daun Jeruk"

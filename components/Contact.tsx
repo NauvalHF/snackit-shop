@@ -1,7 +1,6 @@
 export default function Contact() {
   return (
     <section id="contact" className="py-24 px-6 bg-background relative overflow-hidden">
-      {/* Subtle Background Glow to finish the site */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-secondary/10 blur-[120px] rounded-full -z-10" />
 
       <div className="max-w-6xl mx-auto">
@@ -11,8 +10,7 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-          
-          {/* Left Side: Direct Contact info */}
+           
           <div className="space-y-8">
             <div className="bg-secondary/5 border border-foreground/10 p-8 rounded-3xl">
               <h3 className="text-2xl font-bold text-foreground mb-6">Contact Info</h3>
@@ -39,15 +37,13 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            {/* Quick Promo Box */}
+ 
             <div className="bg-secondary p-8 rounded-3xl text-background">
               <h4 className="text-xl font-bold">Beli 3, Diskon 10%!</h4>
               <p className="opacity-90">Promo khusus buat kamu yang lagi marathon film.</p>
             </div>
           </div>
-
-          {/* Right Side: Simple Form */}
+ 
           <form className="bg-secondary/5 border border-foreground/10 p-8 rounded-3xl space-y-4">
             <div>
               <label className="text-sm font-bold text-foreground/70 mb-2 block">Name</label>
@@ -70,8 +66,7 @@ export default function Contact() {
             </button>
           </form>
         </div>
-
-        {/* Footer Credits */}
+ 
         <footer className="mt-24 pt-8 border-t border-foreground/10 text-center text-foreground/40 text-sm">
           <p>© 2026 Your Snack Shop. Created with passion in Indonesia.</p>
         </footer>
